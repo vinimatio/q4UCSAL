@@ -4,7 +4,6 @@
     padding: 6px;
     width: 100%;
     max-width: 340px;
-    max-height: 60%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
