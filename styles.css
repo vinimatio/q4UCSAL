@@ -1,0 +1,43 @@
+.bg {
+    align-self: center;
+    background-color: #D9D9D9;
+    padding: 6px;
+    width: 100%;
+    max-width: 340px;
+    max-height: 60%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 5px;
+    aspect-ratio: 2 / 3;
+}
+
+.screen {
+    background-color: #AAAAFF;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 5px;
+    grid-column: span 4;
+    font-size: inherit;
+}
+
+.button {
+    background-color: #04A9F0;
+    border: none;
+    color: white;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.button:hover {
+    background-color: #AAAAFF;
+    cursor: pointer;
+}
+
+.button:active {
+    color: #04A9F0;
+}
+
+.lbutton {
+    grid-column: span 2;
+}
